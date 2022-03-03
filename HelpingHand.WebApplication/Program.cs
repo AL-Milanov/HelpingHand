@@ -1,4 +1,4 @@
-using HelpingHand.WebApplication.Data;
+using HelpingHand.Core.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 

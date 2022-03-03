@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace HelpingHand.WebApplication.Data
+namespace HelpingHand.Core.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
