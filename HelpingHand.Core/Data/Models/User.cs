@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using HelpingHand.Core.Data.Common;
+using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HelpingHand.Core.Data.Models
@@ -13,11 +15,15 @@ namespace HelpingHand.Core.Data.Models
 
         public virtual ICollection<Clothes>? ClothesSupplies { get; set; }
 
+        [Required]
+        [StringLength(Constraints.ID_GUID_LENGTH)]
         public string? CityId { get; set; }
 
         [ForeignKey(nameof(CityId))]
         public virtual City? City { get; set; }
 
+        [Required]
+        [StringLength(Constraints.ID_GUID_LENGTH)]
         public string? CountryId { get; set; }
 
         [ForeignKey(nameof(CountryId))]
