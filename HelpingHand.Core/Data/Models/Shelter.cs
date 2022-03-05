@@ -30,12 +30,5 @@ namespace HelpingHand.Core.Data.Models
         [StringLength(Constraints.ID_GUID_LENGTH)]
         public virtual City? City { get; set; }
 
-        [Required]
-        [StringLength(Constraints.ID_GUID_LENGTH)]
-        public string? CountryId { get; set; }
-
-        [ForeignKey(nameof(CountryId))]
-        [StringLength(Constraints.ID_GUID_LENGTH)]
-        public virtual Country? Country { get; set; }
     }
 }

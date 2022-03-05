@@ -22,13 +22,6 @@ namespace HelpingHand.Core.Data.Models
         [ForeignKey(nameof(CityId))]
         public virtual City? City { get; set; }
 
-        [Required]
-        [StringLength(Constraints.ID_GUID_LENGTH)]
-        public string? CountryId { get; set; }
-
-        [ForeignKey(nameof(CountryId))]
-        public virtual Country? Country { get; set; }
-
         public User()
         {
             Shelter = new HashSet<Shelter>();
