@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HelpingHand.Core\HelpingHand.Core.csproj" />
+    <ProjectReference Include="..\HelpingHand.Infrastructure\HelpingHand.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
