@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpingHand.WebApplication", "HelpingHand.WebApplication\HelpingHand.WebApplication.csproj", "{D3620F3B-8F21-4030-BA1B-D5415AB33AB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpingHand.Core", "HelpingHand.Core\HelpingHand.Core.csproj", "{59A3446B-2CE2-4312-8F52-7BDE396F6278}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelpingHand.Core", "HelpingHand.Core\HelpingHand.Core.csproj", "{59A3446B-2CE2-4312-8F52-7BDE396F6278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpingHand.Infrastructure", "HelpingHand.Infrastructure\HelpingHand.Infrastructure.csproj", "{8AE3C633-7952-4F9F-AE0E-70D0E36DF30D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{59A3446B-2CE2-4312-8F52-7BDE396F6278}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59A3446B-2CE2-4312-8F52-7BDE396F6278}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59A3446B-2CE2-4312-8F52-7BDE396F6278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE3C633-7952-4F9F-AE0E-70D0E36DF30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE3C633-7952-4F9F-AE0E-70D0E36DF30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE3C633-7952-4F9F-AE0E-70D0E36DF30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE3C633-7952-4F9F-AE0E-70D0E36DF30D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
