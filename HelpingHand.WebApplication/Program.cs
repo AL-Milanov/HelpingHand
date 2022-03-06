@@ -1,4 +1,5 @@
 using HelpingHand.Core.Data;
+using HelpingHand.Core.Data.Common;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -21,6 +22,9 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
     })
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddTransient<ApplicationDbContext>();
+builder.Services.AddTransient<IRepository, Repository>();
 
 var app = builder.Build();
 

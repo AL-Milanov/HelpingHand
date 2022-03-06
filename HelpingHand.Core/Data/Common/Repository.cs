@@ -5,7 +5,7 @@ namespace HelpingHand.Core.Data.Common
 {
     public class Repository : IRepository
     {
-        private DbContext _context;
+        private ApplicationDbContext _context;
 
         public Repository(ApplicationDbContext context)
         {
